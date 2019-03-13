@@ -1,0 +1,63 @@
+.calendar {
+    border: 1px solid #ddd;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.head {
+    position: relative;
+}
+
+.current {
+    padding: 36px 120px 0px 120px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+    border-color: #eee;
+
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    width: 50px;
+    height: 30px;
+    background-color: yellowgreen;
+    border-color: #eee;
+}
+
+.table {
+    width: 350px;
+    margin: 23px auto;
+}
+
+.thead {
+    line-height: 40px;
+}
+
+.tbody {
+    line-height: 45px;
+}
+
+hr {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    height: 1px;
+    width: 350px;
+    background-color: yellowgreen;
+}
+
+td {
+    text-align: center;
+}
