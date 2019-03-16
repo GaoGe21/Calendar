@@ -30,8 +30,8 @@
      var result = `<div class="calendar">
                         <div class="head">
                             <div class="current">` +
-                                currentMonth + ` / ` + nowDate + ` / ` + nowYear +
-                            `</div>
+         currentMonth + ` / ` + nowDate + ` / ` + nowYear +
+         `</div>
                             <button class="left"><<</button>
                             <button class="right">>></button>
                             <hr/>
@@ -49,11 +49,15 @@
      for (var i in data) {
          var tr = `<tr class="tbody">`;
          for (var j in data[i]) {
-             tr += `<td>` + data[i][j] + `</td>`;
+             tr += `<td><div class="cell">` + data[i][j] + `</div></td>`;
          }
          tr += `</tr>`;
          result += tr;
      }
      result += `</table></div>`;
      return result;
+ }
+
+ function updateCellColor() {
+
  }

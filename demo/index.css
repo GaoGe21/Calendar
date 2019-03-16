@@ -1,7 +1,7 @@
 .calendar {
     border: 1px solid #ddd;
     width: 450px;
-    height: 450px;
+    height: 400px;
     margin: 0 auto;
 }
 
@@ -46,12 +46,12 @@
 }
 
 .tbody {
-    line-height: 45px;
+    line-height: 36px;
 }
 
 hr {
     position: absolute;
-    top: 125px;
+    top: 115px;
     left: 50px;
     height: 1px;
     width: 350px;
@@ -60,4 +60,21 @@ hr {
 
 td {
     text-align: center;
+}
+
+.cell {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.color {
+    background-color: yellowgreen;
+    color: #FFF;
+}
+
+.default {
+    border: 1px solid yellowgreen
 }
